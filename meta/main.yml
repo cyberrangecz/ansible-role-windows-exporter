@@ -1,0 +1,6 @@
+galaxy_info:
+  role_name: windows-exporter
+  author: Tomas Sapak (139890@muni.cz)
+  description: Role for setting up node-exporter
+  company: Masaryk university
+  galaxy_tags: []

@@ -1,0 +1,7 @@
+---
+
+- name: Install Windows exporter
+  ansible.windows.win_package:
+    path: https://github.com/prometheus-community/windows_exporter/releases/download/v0.19.0/windows_exporter-0.19.0-amd64.msi
+    arguments: LISTEN_PORT=9100
+    state: present
